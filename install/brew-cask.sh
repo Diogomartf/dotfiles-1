@@ -16,7 +16,6 @@ apps=(
   dash2
   dropbox
   font-fira-code
-  iterm2
   slack
   spotify
   visual-studio-code
