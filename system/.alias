@@ -3,7 +3,7 @@
 alias reload="source ~/.zshrc"
 alias su="sudo"
 alias g="git"
-alias gbda ="git branch | grep -v "master" | xargs git branch -D"
+alias gbda="git branch | grep -v "master" | xargs git branch -D"
 alias rr="rm -rf"
 
 # Default options
