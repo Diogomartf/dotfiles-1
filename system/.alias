@@ -2,9 +2,12 @@
 
 alias reload="source ~/.zshrc"
 alias su="sudo"
+alias rr="rm -rf"
+
 alias g="git"
 alias gbda="git branch | grep -v "master" | xargs git branch -D"
-alias rr="rm -rf"
+alias gcd="git checkout dev"
+
 
 # Default options
 
@@ -59,6 +62,7 @@ alias nu="npm uninstall"
 alias nup="npm update"
 alias nri="rm -r node_modules && npm install"
 alias ncd="npm-check -su"
+alias ns="npm start"
 
 # yarn
 
