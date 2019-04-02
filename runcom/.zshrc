@@ -7,17 +7,17 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='atom-beta'
+   export EDITOR='code'
  else
-   export EDITOR='atom'
+   export EDITOR='atom-beta'
  fi
 
  export PATH="$HOME/.bin:$PATH"
  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
- alias zshconfig="atom-beta ~/.dotfiles/runcom/.zshrc"
- alias ohmyzsh="atom-beta ~/.oh-my-zsh"
- alias dotconfig="atom-beta ~/.dotfiles"
+ alias zshconfig="code ~/.dotfiles/runcom/.zshrc"
+ alias ohmyzsh="code ~/.oh-my-zsh"
+ alias dotconfig="code ~/.dotfiles"
 
 # If not running interactively, don't do anything
 
